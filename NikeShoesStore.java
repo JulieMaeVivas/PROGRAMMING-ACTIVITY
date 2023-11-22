@@ -94,8 +94,8 @@ public class NikeShoesStore {
 
         // Display the total cost and ask for cash payment
         double discountedTotal = totalCost;
-        if (totalCost >= 6 * 3200.0) {
-            double discount = totalCost * 0.10;
+        if (totalCost >= 5 * 3200.0) {
+            double discount = totalCost * 0.05;
             discountedTotal = totalCost - discount;
             JOptionPane.showMessageDialog(null, "Your total cost before discount: ₱" + totalCost + "\nYou are eligible for a 5% discount. Your new total cost is: ₱" + discountedTotal);
         } else {
